@@ -1,0 +1,14 @@
+{% extends 'Base.html' %}
+{% load static %}
+{% block title %}
+Blood Bank
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="userbg">
+<a class="btn btn-success btn-lg" href="{% url 'booking:donor_register' %}" id="dregbtn">Donate blood</a>
+    </div>
+</div>
+{% endblock %}
+
